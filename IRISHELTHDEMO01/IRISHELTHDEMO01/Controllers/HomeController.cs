@@ -23,7 +23,7 @@ namespace IRISHELTHDEMO01.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            string h = "hello";
             return View();
         }
     }
